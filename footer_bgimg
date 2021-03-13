@@ -1,0 +1,151 @@
+
+<section class="ftco-fotro img index-inquiry indexiq" style="background-image:url(../../../assets/images/slide12.jpg);height: 300px; max-width:100%;">
+    <div class="overlay"></div>
+    <div class="container margin">
+        
+        <div class="row">
+            <div class="col-md-4 ">
+                <a href="i">
+                    <img src="../../../assets/images/white logo.svg" alt="logo image">
+                </a>
+            <br>
+            <br>
+          
+                <p>
+                    We have not Yet Created our Social Media Account.
+                </p>
+               
+            </div>
+            <div class="col-md-4 ">
+                <h2 class="ftco-heading-2">Links</h2>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <ul class="list-unstyled">
+                            <li><a href="#" [routerLink]="['/AboutUs']"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
+                            <li><a href="#" [routerLink]="['/Products']"><span class="fa fa-chevron-right mr-2"></span>Products & Services</a></li>
+                            <li><a href="#" [routerLink]="['/OurCustomers']"><span class="fa fa-chevron-right mr-2"></span>Our Customers</a></li>
+                            <li><a href="#" [routerLink]="['/ContactUs']"><span class="fa fa-chevron-right mr-2"></span>Contact Us</a></li>
+                         </ul>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-md-4 ">
+                <h2 class="ftco-heading-2">Have a Questions ?</h2>
+                  <div class="block-23 mb-3 ">
+                        <ul class="list_unstyled1">
+                            <li><span class="fa fa-map-marker mr-3 iconc"></span><span class="add">206, 2nd Floor, Kamat Tower, Patto Plaza, Panjim, Goa, India - 403001</span></li>
+                            <li><a href="#"><span class="fa fa-phone mr-3 iconc"></span><span class="add">7798983277 </span></a></li>
+                            <li><a href="#"><span class="fa fa-paper-plane mr-3 iconc"></span><span class="add">yanniinfraprojects@yahoo.in </span></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-alert">
+                        <!-- <p>
+                            Mobile number : +91 7798983277
+                            Email id : yanniinfraprojects@yahoo.in 
+                        </p> -->
+                    </div>
+            </div>
+        </div>
+        <div class="container-fluid futorinfo">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="">
+    
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                         </script> All rights reserved by {{environmentname}}
+    
+                    </p>
+                </div>
+            </div>
+        </div>
+   </div>
+    
+</section>
+
+
+
+===========================================================================================================================================================================
+style.csss
+
+
+.ftco-fotro{
+    padding: 5em 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8);
+    background: #ffa931;
+    z-index: 0;
+    overflow: hidden;
+}
+.ftco-fotro .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .9;
+    background: #042e4f;
+    z-index: -2;
+    height: 500px;
+  
+    background-repeat: no-repeat;
+}
+.futorinfo{
+    margin-top: -1%;
+}
+
+.ftco-fotro .ftco-heading-2 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.ftco-fotro .ftco-footer-widget ul li a {
+    color: rgba(255, 255, 255, 0.5);
+}
+.ftco-fotro a {
+    color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+.iconc{
+    color:#fff;;
+}
+.add{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.margin{
+    margin-top:-30px;
+}
+
+=========================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
